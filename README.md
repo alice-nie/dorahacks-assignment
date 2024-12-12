@@ -1,8 +1,20 @@
-# React + Vite
+# Buds
+Created a navigational menu for pseudo-company Buds, a new app that encourages productivity and accountability. 
+Writeup: https://docs.google.com/document/d/1ynwcfgUY82mdsFlijU2mWw0DznP9BvyxNonBRqPL9mc/edit?usp=sharing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- 4 main navigation items
+- Responsive (Desktop 1280 px, Tablet 768 px, Mobile)
+- Desktop View
+  - Hover over items to open dropdown
+  - Horizontal nav bar
+- Tablet and Mobile view
+  - Click item to open dropdown
+  - Vertical nav bar
+- Animated search bar
+- Night/dark mode
+- Clean and visually appealing user interface
+- Smooth animations
+- Accessible (following WCAG guidelines)
+- Change languages (not implemented)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
