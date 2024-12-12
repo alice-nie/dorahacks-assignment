@@ -1,0 +1,13 @@
+body.nightMode {
+  --offwhite: #2F3130;
+  --offblack: #FEFEFE;
+  --shadow: 0px 0px 2px #E9E9E9;
+  --lightgreen: #079488;
+
+  --blue: #bad3f9;
+  --lightblue: #0167FB;
+  --purple: #d3abfe;
+  --lightpurple: #8537DF;
+  --pink: #fdb8dd;
+  --lightpink: #FF0096;
+}

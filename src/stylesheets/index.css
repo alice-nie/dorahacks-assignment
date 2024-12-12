@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+      
+:root {
+  /* neutral colors */
+  --offwhite: #FEFEFE;
+  --gray1: #B8B8B8;
+  --gray2: #7A7A7A;
+  --gray3: #515151;
+  --offblack: #0F0F0F;
+  /* colors */
+  --green: #17BCAE;
+  --lightgreen: #D5F1F0;
+  --darkgreen: #079488;
+  --blue: #0167FB;
+  --lightblue: #EBF3FF;
+  --purple: #8537DF;
+  --lightpurple: #F4EDFC;
+  --pink: #FF0096;
+  --lightpink: #FFEBF6;
+  /* effects */
+  --shadow: 0px 0px 10px #0000001A;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  background-color: var(--offwhite);
+  margin: 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.light {
+  font-weight: light;
+  font-size: 16px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Lato;
+  cursor: pointer;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

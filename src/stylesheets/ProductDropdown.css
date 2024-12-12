@@ -1,0 +1,91 @@
+
+#productDropdownMenu{
+    width: 300px;
+    padding: 16px;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    top: 100%;
+    position: absolute;
+    left: 0;
+
+    background-color: var(--offwhite);
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.itemContentContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0px;
+    color: var(--offblack);
+}
+
+.itemTitle{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.itemBody{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+
+.blue{
+    color: var(--blue);
+}
+
+.purple{
+    color: var(--purple);
+}
+
+.pink{
+    color: var(--pink);
+}
+
+.createTasks:hover{
+    background-color:var(--lightblue);
+}
+
+.createTasks:hover .itemTitle{
+    color: var(--blue);
+}
+
+.sendReminders:hover{
+    background-color:var(--lightpurple);
+}
+
+.sendReminders:hover .itemTitle{
+    color: var(--purple);
+}
+
+.getRewards:hover{
+    background-color:var(--lightpink);
+}
+
+.getRewards:hover .itemTitle{
+    color: var(--pink);
+}
+
+@media screen and (max-width: 1280px) {
+    #productDropdownMenu {
+        position: static;
+        box-shadow: none;
+        padding: 8px 0px;
+        width: 100%;
+    }
+
+    .itemTitle {
+        font-size: 16px;
+    }
+}
