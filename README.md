@@ -18,3 +18,4 @@ Writeup: https://docs.google.com/document/d/1ynwcfgUY82mdsFlijU2mWw0DznP9BvyxNon
 - Accessible (following WCAG guidelines)
 - Change languages (not implemented)
 
+** Nav items and buttons don't go anywhere
