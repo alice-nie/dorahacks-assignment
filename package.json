@@ -2,13 +2,15 @@
   "name": "dorahacks",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://alice-nie.github.io/dorahacks-assignment/",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-    
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
