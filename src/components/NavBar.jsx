@@ -61,7 +61,7 @@ function NavBar({ mode, changeMode }) {
                     {click ? <IconX className="icon" aria-label="Close menu"/> 
                         : <IconMenu2 className="icon" aria-label="Open menu"/>}
                     
-                    <a href="/" aria-label="Home">
+                    <a href="" aria-label="Home">
                         <img src={ logo } alt="Buds logo" className="logo"/>
                     </a>
 
@@ -69,7 +69,7 @@ function NavBar({ mode, changeMode }) {
                 </div>
                 
                 {/* Desktop Logo */}
-                <a href="/" aria-label="Home">
+                <a href="" aria-label="Home">
                     <img src={ logo } alt="Buds logo" className="logo"/>
                 </a>
 
