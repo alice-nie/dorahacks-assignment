@@ -5,11 +5,10 @@ function Search() {
     
     return (
         <div className="searchContainer"  >
-            <label htmlFor="searchInput" className="srOnly">
+            <label className="srOnly">
                 Search
             </label>
             <input 
-                id="searchInput"
                 type="search" 
                 placeholder="Search here..."
                 aria-label="Search for content"
